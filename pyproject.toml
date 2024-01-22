@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ecg"
+version = "0.1.0"
+description = ""
+authors = ["David Holý <david.holy225@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+scikit-learn = "*"
+ipykernel = "*"
+wfdb = "*"
+plotly = "*"
+nbformat = "*"
+optuna = "*"
+scipy = "*"
+cmaes = "*"
+pydicom = "^2.4.4"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
